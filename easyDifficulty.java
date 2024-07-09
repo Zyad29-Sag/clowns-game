@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package eg.edu.alexu.csd.oop.game.sample.world.circus;
+
+/**
+ *
+ * @author Legion
+ */
+public class easyDifficulty implements Difficulty{
+
+    private final int time = 80 * 1000;
+    private final int speed = 15;
+
+    public easyDifficulty() {
+    }
+
+    @Override
+    public int getTime() {
+        return time;
+    }
+
+    @Override
+    public int getSpeed() {
+        return speed;
+    }
+
+}
